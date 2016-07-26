@@ -1,0 +1,4 @@
+<div class="nav-container">
+    <ul id="nav">
+        <li  class="level0 nav-1 first level-top"><a href="http://localhost/magento/index.php/sunglasses.html?___SID=U"  class="level-top" ><span>Sunglasses</span></a></li><li  class="level0 nav-2 active last level-top"><a href="http://localhost/magento/index.php/contact-lenses.html?___SID=U"  class="level-top" ><span>Contact Lenses</span></a></li>    </ul>
+</div>
