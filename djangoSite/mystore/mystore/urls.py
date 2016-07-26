@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-import store.views
-admin.autodiscover()
+import storeMagento.views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', store.views.homepage_view),
-    url(r'^a/$', store.views.homepage_view),
-
+    url(r'^cat/(?P<category_id>\d+)/$', storeMagento.views.categorypage_view),
+    url(r'^item/(?P<item_id>\d+)/$', storeMagento.views.itempage_view),
+    url(r'^$', storeMagento.views.homepage_view),
 
 ]
